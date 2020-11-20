@@ -1,6 +1,8 @@
 const { hrzLogin } = require('jvelezpo-pager-cli/module');
 
 module.exports = async (req, res) => {
+  
+  res.setHeader('Access-Control-Allow-Origin', '*');
 
   try {
     const { username, password, env } = req.query;
