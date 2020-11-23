@@ -1,4 +1,4 @@
-const { hrzLogin } = require('jvelezpo-pager-cli/module');
+const { hrzLogin } = require('@pager/pager-cli/module');
 
 module.exports = async (req, res) => {
   

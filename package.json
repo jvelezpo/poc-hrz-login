@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jvelezpo-pager-cli": "^4.3.9"
+    "@pager/pager-cli": "^4.3.11"
   }
 }
